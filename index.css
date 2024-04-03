@@ -2,11 +2,13 @@ body {
     margin: 0;
     font-family: "Smythe", system-ui;
     font-weight: 400;
+    color: white;
 } 
 
 .container {
     margin: 0px auto;
     width: 600px;
+    background-color: #393939;
 }
 
 /* header section */
@@ -85,7 +87,7 @@ body {
 
 #add-item-btn {
     background-color: inherit;
-    color: #3c3c3c;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: 200;
