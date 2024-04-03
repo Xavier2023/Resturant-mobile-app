@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Anthony's Diner</title>
+    </head>
+    <body>
+        <div class="container">
+            <header id="app-header">
+                <h1>Anthony's Diner </h1>
+                <p>The best burger and pizzas in Lekki</p>
+            </header>
+            <main id="menu">
+                <section id="menu-items">
+                    <!-- Menu goes here -->
+                </section>
+                <section id="order-section">
+                    <div id="orders">
+                        <h2>Your order</h2>
+                       
+                        <!-- <div id="order">
+                            <h3>Pizza <span id="remove-item">remove</span></h3>
+                            <p>$14</p>
+                        </div> -->
+                    </div>
+                    <div id="total-price">
+                        <!-- <h2>Total price:</h2>
+                        <p>$14</p> -->
+                    </div>
+                    <button id="complete-order">Complete order</button>
+                </section>
+                <section class="payment-card">
+                    <form action="" class="payment-form">
+                        <h1>Enter card details</h1>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                        <input type="text" id="card" placeholder="Enter card number" required  >
+                        <input type="password" id="cvv" placeholder="Enter CVV" required >
+                        <button id="pay">Pay</button>
+                    </form>
+                    <button id="cancel">Cancel order</button>
+                </section>
+                <section id="order-complete">
+                    <!-- <div class="message">
+                        <p>Thanks Anthony! Your order is on its way</p>
+                    </div> -->
+                </section>
+            </main>
+        </div>
+	    <script src="index.js" type="module"></script>
+    </body>
+</html>
+
